@@ -62,7 +62,7 @@ var score = 74
   Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
 */
 
-if (score >= 90) {
+if (score >= 90 && score <= 100) {
   console.log('A');
 } else if (score >= 80 && score <= 89) {
   console.log('B');
@@ -155,21 +155,27 @@ switch (letterGrade) {
   case 'A':
     console.log("The student is doing excellently.")
     break;
+
   case 'B':
     console.log("The student is doing well.")
     break;
+
   case 'C':
     console.log("The student is doing alright.")
     break;
+
   case 'D':
     console.log("The student is not doing very well.")
     break;
+
   case 'F':
     console.log("The student is failing.")
     break;
+
   default:
     console.log("Not an eligible grade.")
 }
+
 
 
 
@@ -208,3 +214,5 @@ for (i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
+
+
